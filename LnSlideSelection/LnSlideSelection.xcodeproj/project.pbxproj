@@ -15,6 +15,8 @@
 		2126A0A4213FE90F0092EFF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0A3213FE90F0092EFF1 /* main.m */; };
 		2126A0AE213FE90F0092EFF1 /* LnSlideSelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0AD213FE90F0092EFF1 /* LnSlideSelectionTests.m */; };
 		2126A0B9213FE90F0092EFF1 /* LnSlideSelectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0B8213FE90F0092EFF1 /* LnSlideSelectionUITests.m */; };
+		2126A0C9213FEABB0092EFF1 /* MJScrollPainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0C8213FEABA0092EFF1 /* MJScrollPainView.m */; };
+		2126A0CC2140B6AA0092EFF1 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0CB2140B6AA0092EFF1 /* UIView+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		2126A0B4213FE90F0092EFF1 /* LnSlideSelectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LnSlideSelectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2126A0B8213FE90F0092EFF1 /* LnSlideSelectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LnSlideSelectionUITests.m; sourceTree = "<group>"; };
 		2126A0BA213FE90F0092EFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2126A0C7213FEABA0092EFF1 /* MJScrollPainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJScrollPainView.h; sourceTree = "<group>"; };
+		2126A0C8213FEABA0092EFF1 /* MJScrollPainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJScrollPainView.m; sourceTree = "<group>"; };
+		2126A0CA2140B6A90092EFF1 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		2126A0CB2140B6AA0092EFF1 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		2126A0CD2140B7C80092EFF1 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		2126A093213FE9020092EFF1 /* LnSlideSelection */ = {
 			isa = PBXGroup;
 			children = (
+				2126A0C6213FEA920092EFF1 /* slider */,
 				2126A094213FE9020092EFF1 /* AppDelegate.h */,
 				2126A095213FE9020092EFF1 /* AppDelegate.m */,
 				2126A097213FE9020092EFF1 /* ViewController.h */,
@@ -130,6 +138,18 @@
 				2126A0BA213FE90F0092EFF1 /* Info.plist */,
 			);
 			path = LnSlideSelectionUITests;
+			sourceTree = "<group>";
+		};
+		2126A0C6213FEA920092EFF1 /* slider */ = {
+			isa = PBXGroup;
+			children = (
+				2126A0CD2140B7C80092EFF1 /* YYCategoriesMacro.h */,
+				2126A0CA2140B6A90092EFF1 /* UIView+YYAdd.h */,
+				2126A0CB2140B6AA0092EFF1 /* UIView+YYAdd.m */,
+				2126A0C7213FEABA0092EFF1 /* MJScrollPainView.h */,
+				2126A0C8213FEABA0092EFF1 /* MJScrollPainView.m */,
+			);
+			path = slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +284,8 @@
 			files = (
 				2126A099213FE9020092EFF1 /* ViewController.m in Sources */,
 				2126A0A4213FE90F0092EFF1 /* main.m in Sources */,
+				2126A0C9213FEABB0092EFF1 /* MJScrollPainView.m in Sources */,
+				2126A0CC2140B6AA0092EFF1 /* UIView+YYAdd.m in Sources */,
 				2126A096213FE9020092EFF1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
