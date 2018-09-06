@@ -17,6 +17,7 @@
 		2126A0B9213FE90F0092EFF1 /* LnSlideSelectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0B8213FE90F0092EFF1 /* LnSlideSelectionUITests.m */; };
 		2126A0C9213FEABB0092EFF1 /* MJScrollPainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0C8213FEABA0092EFF1 /* MJScrollPainView.m */; };
 		2126A0CC2140B6AA0092EFF1 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2126A0CB2140B6AA0092EFF1 /* UIView+YYAdd.m */; };
+		2126A0CF2140C47B0092EFF1 /* scroll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2126A0CE2140C47A0092EFF1 /* scroll.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		2126A0CA2140B6A90092EFF1 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
 		2126A0CB2140B6AA0092EFF1 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 		2126A0CD2140B7C80092EFF1 /* YYCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCategoriesMacro.h; sourceTree = "<group>"; };
+		2126A0CE2140C47A0092EFF1 /* scroll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scroll.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		2126A0C6213FEA920092EFF1 /* slider */ = {
 			isa = PBXGroup;
 			children = (
+				2126A0CE2140C47A0092EFF1 /* scroll.jpg */,
 				2126A0CD2140B7C80092EFF1 /* YYCategoriesMacro.h */,
 				2126A0CA2140B6A90092EFF1 /* UIView+YYAdd.h */,
 				2126A0CB2140B6AA0092EFF1 /* UIView+YYAdd.m */,
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2126A0CF2140C47B0092EFF1 /* scroll.jpg in Resources */,
 				2126A0A1213FE90F0092EFF1 /* LaunchScreen.storyboard in Resources */,
 				2126A09E213FE90F0092EFF1 /* Assets.xcassets in Resources */,
 				2126A09C213FE9020092EFF1 /* Main.storyboard in Resources */,
