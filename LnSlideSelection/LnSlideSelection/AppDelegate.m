@@ -3,7 +3,7 @@
 //  LnSlideSelection
 //
 //  Created by talking on 2018/9/5.
-//  Copyright © 2018年 李宁. All rights reserved.
+//  Copyright © 2018年 ln. All rights reserved.
 //
 
 #import "AppDelegate.h"

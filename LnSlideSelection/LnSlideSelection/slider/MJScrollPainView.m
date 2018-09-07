@@ -3,7 +3,7 @@
 //  MagiKarePatient
 //
 //  Created by talking on 2017/12/26.
-//  Copyright © 2017年 李宁. All rights reserved.
+//  Copyright © 2017年 ln. All rights reserved.
 //
 
 #define MJColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
